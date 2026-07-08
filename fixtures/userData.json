@@ -1,0 +1,25 @@
+{
+"userCorrect": {
+    "mailAddress": "testowy@test.com",
+    "password": "Testowehasło123$",
+    "firstName": "Automatic",
+    "lastName": "Test",
+    "displayedName": "testowy",
+    "phoneNumber": "123123123",
+    "companyName": "AutomaticCompany",
+    "addressFirstLine": "FirstLineOfAddress",
+    "addressSecondLine": "SecondLineOfAddress",
+    "city": "TestedCityName",
+    "postCode": "123456",
+    "country": "Poland",
+    "region": "Malopolskie"
+  },
+  "userIncorrect": {
+    "mailAddress": "incorrect@incorrect.com",
+    "mailAddressFormat": "w@2",
+    "veryWeakPassword": "as",
+    "weakPassword": "asd123sadf",
+    "mediumStrengthPassword": "asd123sadf@#!",
+    "strongPassword": "asd123sadf@#!SDG"
+  }
+}

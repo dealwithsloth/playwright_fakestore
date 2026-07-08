@@ -1,0 +1,11 @@
+{
+    "demoStoreNoticeBarContent": "To jest wersja demonstracyjna sklepu do celów testowych— Zamówienia nie będą realizowane.",
+    "loginIsRequiredErrorMessage": "Błąd: Nazwa użytkownika jest wymagana.",
+    "passwordIsRequiredErrorMessage": "Błąd: pole hasła jest puste.",
+    "wrongCredentialsErrorMessage": "Błąd: dla adresu e-mail testowy@test.com podano nieprawidłowe hasło. Nie pamiętasz hasła?",
+    "veryWeakPasswordMessage": "Bardzo słabe - Proszę wpisać mocniejsze hasło.",
+    "weakPasswordMessage": "Słabe - Proszę wpisać mocniejsze hasło.",
+    "mediumStrengthPasswordMessage": "Średnie",
+    "strongPasswordMessage": "Silne",
+    "myAccountContent": "W ustawieniach swojego konta możesz przejrzeć"
+}
