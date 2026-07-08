@@ -1,9 +1,10 @@
 {
 "userCorrect": {
-    "mailAddress": "automatic@test.com",
-    "password": "TestPassword2@",
+    "mailAddress": "testowy@test.com",
+    "password": "Testowehasło123$",
     "firstName": "Automatic",
     "lastName": "Test",
+    "displayedName": "testowy",
     "phoneNumber": "123123123",
     "companyName": "AutomaticCompany",
     "addressFirstLine": "FirstLineOfAddress",
@@ -16,6 +17,9 @@
   "userIncorrect": {
     "mailAddress": "incorrect@incorrect.com",
     "mailAddressFormat": "w@2",
-    "password": "as"
+    "veryWeakPassword": "as",
+    "weakPassword": "asd123sadf",
+    "mediumStrengthPassword": "asd123sadf@#!",
+    "strongPassword": "asd123sadf@#!SDG"
   }
 }

@@ -17,9 +17,14 @@ export class RegisterLoginPage {
         this.registerPasswordInput = page.locator("#reg_password");
         this.showPasswordIcon = page.locator(".show-password-input");
         this.privacyPolicyLink = page.locator(".woocommerce-privacy-policy-link");
-        this.proceedRegisterButton = page.locator("[name='register']");
+        this.registerButton = page.getByRole('button', { name: 'Zarejestruj się'});
         this.loginEmailInput = page.locator("#username");
         this.loginPasswordInput = page.locator("#password");
+        this.passwordStrengthMeter = page.locator("#password_strength");
+    };
 
+    async enterPassword(password) {
+        await this.registerPasswordInput.click();
+        await this.registerPasswordInput.pressSequentially(password);
     };
 }
